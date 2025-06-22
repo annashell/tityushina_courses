@@ -6,7 +6,6 @@ import SideMenu from "../../components/SideMenu/SideMenu";
 
 function ChapterPage() {
     const { courseId, chapterId } = useParams();
-    const navigate = useNavigate();
     const [chapter, setChapter] = useState(null);
     const [content, setContent] = useState('');
     const [loading, setLoading] = useState(true);
@@ -23,7 +22,7 @@ function ChapterPage() {
                 setChapter(foundChapter);
 
                 // Загружаем HTML-контент из public
-                return fetch(`/courses/course-${courseId}/${foundChapter.filename}`);
+                return fetch(`${process.env.PUBLIC_URL}/courses/${courseId}/${foundChapter.filename}`);
             })
             .then(response => {
                 if (!response.ok) throw new Error('Failed to load chapter content');

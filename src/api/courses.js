@@ -1,6 +1,6 @@
 const coursesData = [
     {
-        id: 1,
+        id: 'linear_models',
         title: "Линейные модели и фильтры",
         description: "3 курс",
         chapters: [
@@ -10,7 +10,7 @@ const coursesData = [
         ]
     },
     {
-        id: 2,
+        id: 'dsp',
         title: "Цифровая обработка сигналов",
         description: "4 курс",
         chapters: [
@@ -27,12 +27,12 @@ export const getAllCourses = () => {
 };
 
 export const getCourseDetails = (courseId) => {
-    const course = coursesData.find(c => c.id === parseInt(courseId));
+    const course = coursesData.find(c => c.id === courseId);
     return course ? Promise.resolve(course) : Promise.reject("Course not found");
 };
 
 export const getCourseContent = (courseId) => {
     console.log('Fetching content for course:', courseId);
-    const course = coursesData.find(c => c.id === parseInt(courseId));
+    const course = coursesData.find(c => c.id === courseId);
     return course ? Promise.resolve({ chapters: course.chapters }) : Promise.reject("Course not found");
 };
