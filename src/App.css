@@ -1,4 +1,12 @@
-/* Основные стили приложения */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -26,27 +34,6 @@
 
 .chapter-page {
   display: flex;
-}
-
-.header {
-  display: flex;
-  border-bottom: 2px #cccccc solid;
-  position: relative;
-  padding-left: 20px;
-}
-
-.header-container {
-  width: 80%;
-  margin-right: 20px;
-  height: 200px;
-}
-
-.header_img_div {
-  width: 20%;
-}
-
-.header_img {
-  width: 200px;
 }
 
 /* Адаптивные стили */

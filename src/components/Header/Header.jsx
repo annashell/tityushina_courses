@@ -6,10 +6,14 @@ function Header() {
         <header className="header">
             <div className="header-container">
                 <div>
-                    <h2>Учебные курсы</h2>
+                    <div className="header_uni">Санкт-Петербургский государственный университет</div>
+                    <div className="header_chair">Кафедра фонетики и методики преподавания иностранных языков</div>
+                    <div className="header-title">Учебные курсы</div>
                     <nav>
-                        <Link to="/" className="nav-link">
-                            Все курсы
+                        <Link to="/" className="header-link">
+                            <button className="header-button">
+                                Все курсы
+                            </button>
                         </Link>
                     </nav>
                 </div>
