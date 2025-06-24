@@ -5,7 +5,6 @@ import SideMenu from "../SideMenu/SideMenu";
 function CourseCard({ course }) {
     return (
         <div className="course-card">
-            <SideMenu />
             <div>
                 <Link to={`/course/${course.id}`}>
                     <h3>{course.title}</h3>

@@ -25,7 +25,7 @@ function CoursePage() {
     return (
         <div className="course-page">
             <SideMenu />
-            <div>
+            <div className="course-page-content">
                 <h2>{course.title}</h2>
                 <p className="course-description">{course.description}</p>
             </div>

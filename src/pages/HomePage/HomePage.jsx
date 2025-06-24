@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import CourseCard from '../../components/CourseCard/CourseCard';
 import { getAllCourses } from '../../api/courses';
 import './HomePage.css';
+import SideMenu from "../../components/SideMenu/SideMenu";
 
 function HomePage() {
     const [courses, setCourses] = useState([]);
@@ -18,7 +19,7 @@ function HomePage() {
 
     return (
         <div className="home-page">
-            <h2>Доступные курсы</h2>
+            <div className="home-page-header">Доступные курсы:</div>
             {loading ? (
                 <div>Загрузка курсов...</div>
             ) : (

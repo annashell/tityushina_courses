@@ -1,11 +1,11 @@
-import { useParams, useNavigate } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import { getCourseDetails } from '../../api/courses';
+import {useParams, useNavigate} from 'react-router-dom';
+import {useState, useEffect} from 'react';
+import {getCourseDetails} from '../../api/courses';
 import './ChapterPage.css';
 import SideMenu from "../../components/SideMenu/SideMenu";
 
 function ChapterPage() {
-    const { courseId, chapterId } = useParams();
+    const {courseId, chapterId} = useParams();
     const [chapter, setChapter] = useState(null);
     const [content, setContent] = useState('');
     const [loading, setLoading] = useState(true);
@@ -45,11 +45,12 @@ function ChapterPage() {
     return (
         <div className="chapter-page">
             <SideMenu/>
-            <h2>{chapter.title}</h2>
-            <div
-                className="chapter-content"
-                dangerouslySetInnerHTML={{ __html: content }}
-            />
+            <div className="chapter-page-content">
+                <h2>{chapter.title}</h2>
+                <div className="chapter-content"
+                     dangerouslySetInnerHTML={{__html: content}}
+                />
+            </div>
         </div>
     );
 }
