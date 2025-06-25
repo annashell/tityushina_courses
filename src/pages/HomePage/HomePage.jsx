@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import CourseCard from '../../components/CourseCard/CourseCard';
 import { getAllCourses } from '../../api/courses';
 import './HomePage.css';
-import SideMenu from "../../components/SideMenu/SideMenu";
 
 function HomePage() {
     const [courses, setCourses] = useState([]);

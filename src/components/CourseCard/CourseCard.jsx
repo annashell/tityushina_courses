@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './CourseCard.css';
-import SideMenu from "../SideMenu/SideMenu";
 
 function CourseCard({ course }) {
     return (
