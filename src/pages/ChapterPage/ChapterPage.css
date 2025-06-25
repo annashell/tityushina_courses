@@ -27,4 +27,6 @@
 
 .chapter-page-content {
     margin-left: 20px;
+    overflow-y: auto;
+    flex: 1 1;
 }

@@ -1,5 +1,5 @@
 import {useParams} from 'react-router-dom';
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useRef} from 'react';
 import {getCourseDetails} from '../../api/courses';
 import './ChapterPage.css';
 import SideMenu from "../../components/SideMenu/SideMenu";
@@ -10,6 +10,68 @@ function ChapterPage() {
     const [content, setContent] = useState('');
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
+    const contentRef = useRef(null);
+    const [mathJaxLoaded, setMathJaxLoaded] = useState(false);
+
+    // Загрузка MathJax
+    useEffect(() => {
+        if (window.MathJax) {
+            setMathJaxLoaded(true);
+            return;
+        }
+
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js';
+        script.id = 'MathJax-script';
+        script.async = true;
+
+        script.onload = () => {
+            window.MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']],
+                    packages: {'[+]': ['base', 'ams', 'newcommand']}
+                },
+                options: {
+                    enableMenu: false
+                },
+                startup: {
+                    pageReady: () => {
+                        setMathJaxLoaded(true);
+                        return window.MathJax.startup.defaultPageReady();
+                    }
+                }
+            };
+        };
+
+        document.head.appendChild(script);
+
+        return () => {
+            const script = document.getElementById('MathJax-script');
+            if (script) document.head.removeChild(script);
+        };
+    }, []);
+
+    // Рендеринг формул после загрузки контента и MathJax
+    useEffect(() => {
+        if (!mathJaxLoaded || !contentRef.current) return;
+
+        const renderMath = async () => {
+            try {
+                await window.MathJax.typesetPromise([contentRef.current]);
+            } catch (error) {
+                console.error('MathJax rendering error:', error);
+                // Повторная попытка через 500мс
+                setTimeout(() => {
+                    if (window.MathJax) {
+                        window.MathJax.typesetPromise([contentRef.current]);
+                    }
+                }, 500);
+            }
+        };
+
+        renderMath();
+    }, [mathJaxLoaded, content]); // Добавьте ваш контент в зависимости
 
     useEffect(() => {
         // Загружаем метаданные главы

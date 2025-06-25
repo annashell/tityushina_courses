@@ -2,7 +2,7 @@ const coursesData = [
     {
         id: 'linear_models',
         title: "Линейные модели и фильтры",
-        description: "3 курс",
+        description: "Общая и прикладная фонетика, 3 курс",
         chapters: [
             { id: 1, title: "Простая гармоника и гармонический сигнал. Колебание струны. Тембр.", filename: "lm_1.html" },
             { id: 2, title: "Цифровой и аналоговый сигнал. Дискретизация. Частота Найквиста.", filename: "lm_2.html" },
@@ -23,6 +23,7 @@ const coursesData = [
             { id: 17, title: "Шумы", filename: "lm_17.html" },
             { id: 18, title: "Преобразование частоты дискретизации", filename: "lm_18.html" },
             { id: 19, title: "Параметрический синтез", filename: "lm_18.html" },
+            { id: 98, title: "Список литературы", filename: "lit.html" },
             { id: 99, title: "Вопросы к экзамену", filename: "exam_questions.html" },
             // ... другие главы
         ]
