@@ -10,9 +10,6 @@ function SideMenu() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    console.log('Current courseId:', courseId);
-    console.log('Current path:', location.pathname);
-
     useEffect(() => {
         const fetchChapters = async () => {
             try {
