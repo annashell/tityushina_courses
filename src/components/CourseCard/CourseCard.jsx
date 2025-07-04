@@ -5,7 +5,7 @@ function CourseCard({ course }) {
     return (
         <div className="course-card">
             <div>
-                <Link to={`/course/${course.id}`} className="course-card-link">
+                <Link to={`/tityushina_courses/course/${course.id}`} className="course-card-link">
                     <button className="course-card-button">
                         <h3>{course.title}</h3>
                         <h4>{course.description}</h4>

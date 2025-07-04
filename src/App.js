@@ -13,10 +13,9 @@ function App() {
                 <div className="main-content">
                     <div className="content-area">
                         <Routes>
-                            <Route path="/course/:courseId/chapter/:chapterId" element={<ChapterPage/>}/>
-                            <Route path="/course/:courseId" element={<CoursePage/>}/>
+                            <Route path="/tityushina_courses/course/:courseId/chapter/:chapterId" element={<ChapterPage/>}/>
+                            <Route path="/tityushina_courses/course/:courseId" element={<CoursePage/>}/>
                             <Route path="/tityushina_courses/" element={<HomePage/>}/>
-                            <Route path="/" element={<HomePage/>}/>
                         </Routes>
                     </div>
                 </div>

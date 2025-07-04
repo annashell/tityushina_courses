@@ -10,7 +10,7 @@ function Header() {
                     <div className="header_chair">Кафедра фонетики и методики преподавания иностранных языков</div>
                     <div className="header-title">Учебные курсы</div>
                     <nav>
-                        <Link to="/" className="header-link">
+                        <Link to="/tityushina_courses" className="header-link">
                             <button className="header-button">
                                 Все курсы
                             </button>

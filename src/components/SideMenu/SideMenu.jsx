@@ -16,7 +16,7 @@ function SideMenu() {
                 setLoading(true);
 
                 // Если мы на странице курса
-                if (courseId && location.pathname.startsWith('/course/')) {
+                if (courseId && location.pathname.startsWith('/tityushina_courses/course/')) {
                     const data = await getCourseContent(courseId);
                     setChapters(data.chapters);
                     setError(null);
@@ -59,7 +59,7 @@ function SideMenu() {
                         {chapters.map(chapter => (
                             <li key={chapter.id}>
                                 <Link
-                                    to={`/course/${courseId}/chapter/${chapter.id}`}
+                                    to={`/tityushina_courses/course/${courseId}/chapter/${chapter.id}`}
                                     className="chapter-link"
                                 >
                                     {chapter.title}

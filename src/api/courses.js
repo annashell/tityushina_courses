@@ -38,6 +38,26 @@ const coursesData = [
             // ... другие главы
         ]
     },
+    {
+        id: 'python_1_mag',
+        title: "Основы программирования на языке Python",
+        description: "Теория и история языка и языки народов Европы, 1 курс",
+        chapters: [
+            { id: 1, title: "1 тема", filename: "dsp_1.html" },
+            { id: 2, title: "2 тема", filename: "dsp_2.html" },
+            // ... другие главы
+        ]
+    },
+    {
+        id: 'python_2_mag',
+        title: "Основы программирования на языке Python (углубленный курс)",
+        description: "Теория и история языка и языки народов Европы, 2 курс",
+        chapters: [
+            { id: 1, title: "1 тема", filename: "dsp_1.html" },
+            { id: 2, title: "2 тема", filename: "dsp_2.html" },
+            // ... другие главы
+        ]
+    },
     // ... другие курсы
 ];
 
