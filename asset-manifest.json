@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tityushina_courses/static/css/main.d611bfe6.css",
-    "main.js": "/tityushina_courses/static/js/main.94005661.js",
+    "main.js": "/tityushina_courses/static/js/main.fabd9ba7.js",
     "static/js/453.c0704513.chunk.js": "/tityushina_courses/static/js/453.c0704513.chunk.js",
     "index.html": "/tityushina_courses/index.html",
     "main.d611bfe6.css.map": "/tityushina_courses/static/css/main.d611bfe6.css.map",
-    "main.94005661.js.map": "/tityushina_courses/static/js/main.94005661.js.map",
+    "main.fabd9ba7.js.map": "/tityushina_courses/static/js/main.fabd9ba7.js.map",
     "453.c0704513.chunk.js.map": "/tityushina_courses/static/js/453.c0704513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d611bfe6.css",
-    "static/js/main.94005661.js"
+    "static/js/main.fabd9ba7.js"
   ]
 }
