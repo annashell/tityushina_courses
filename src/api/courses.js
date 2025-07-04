@@ -31,7 +31,7 @@ const coursesData = [
     {
         id: 'dsp',
         title: "Цифровая обработка сигналов",
-        description: "4 курс",
+        description: "Общая и прикладная фонетика, 4 курс",
         chapters: [
             { id: 1, title: "1 тема", filename: "dsp_1.html" },
             { id: 2, title: "2 тема", filename: "dsp_2.html" },
