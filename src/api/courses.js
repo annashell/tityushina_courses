@@ -25,7 +25,6 @@ const coursesData = [
             { id: 19, title: "Параметрический синтез", filename: "lm_18.html" },
             { id: 98, title: "Список литературы", filename: "lit.html" },
             { id: 99, title: "Вопросы к экзамену", filename: "exam_questions.html" },
-            // ... другие главы
         ]
     },
     {
@@ -35,7 +34,6 @@ const coursesData = [
         chapters: [
             { id: 1, title: "1 тема", filename: "dsp_1.html" },
             { id: 2, title: "2 тема", filename: "dsp_2.html" },
-            // ... другие главы
         ]
     },
     {
@@ -43,9 +41,17 @@ const coursesData = [
         title: "Основы программирования на языке Python",
         description: "Теория и история языка и языки народов Европы, 1 курс",
         chapters: [
-            { id: 1, title: "1 тема", filename: "dsp_1.html" },
-            { id: 2, title: "2 тема", filename: "dsp_2.html" },
-            // ... другие главы
+            { id: 1, title: "Переменные и типы данных", filename: "python_1_mag_1.html" },
+            { id: 2, title: "Целочисленная арифметика, конструкция if", filename: "python_1_mag_2.html" },
+            { id: 3, title: "Циклы", filename: "python_1_mag_3.html" },
+            { id: 4, title: "Строки", filename: "python_1_mag_4.html" },
+            { id: 5, title: "Списки", filename: "python_1_mag_5.html" },
+            { id: 6, title: "Коллекции в Python", filename: "python_1_mag_6.html" },
+            { id: 7, title: "Функции", filename: "python_1_mag_7.html" },
+            { id: 8, title: "Работа с файлами", filename: "python_1_mag_8.html" },
+            { id: 9, title: "Обработка исключений", filename: "python_1_mag_9.html" },
+            { id: 10, title: "Построение графиков", filename: "python_1_mag_10.html" },
+            { id: 11, title: "Дополнительные задачи", filename: "additional_tasks.html" },
         ]
     },
     {
@@ -53,12 +59,10 @@ const coursesData = [
         title: "Основы программирования на языке Python (углубленный курс)",
         description: "Теория и история языка и языки народов Европы, 2 курс",
         chapters: [
-            { id: 1, title: "1 тема", filename: "dsp_1.html" },
-            { id: 2, title: "2 тема", filename: "dsp_2.html" },
-            // ... другие главы
+            { id: 1, title: "1 тема", filename: "python_2_mag_1.html" },
+            { id: 2, title: "2 тема", filename: "python_2_mag_2.html" },
         ]
     },
-    // ... другие курсы
 ];
 
 export const getAllCourses = () => {
