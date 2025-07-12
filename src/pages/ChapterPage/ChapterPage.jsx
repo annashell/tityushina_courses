@@ -29,10 +29,20 @@ function ChapterPage() {
                 if (!response.ok) throw new Error('Failed to load chapter content');
                 return response.text();
             })
+            // .then(html => {
+            //     setContent(html);
+            //     setLoading(false);
+            // })
             .then(html => {
-                setContent(html);
+                // Фикс путей к изображениям
+                const fixedHtml = html.replaceAll(
+                  /src="img\//g, 
+                  `src="${process.env.PUBLIC_URL}/courses/${courseId}/img/`
+                );
+                console.log("html", process.env.PUBLIC_URL, `src="${process.env.PUBLIC_URL}/courses/${courseId}/img/`)
+                setContent(fixedHtml);
                 setLoading(false);
-            })
+              })
             .catch(err => {
                 setError(err.message);
                 setLoading(false);
