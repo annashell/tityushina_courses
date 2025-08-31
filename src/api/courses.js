@@ -59,8 +59,7 @@ const coursesData = [
         title: "Основы программирования на языке Python (углубленный курс)",
         description: "Теория и история языка и языки народов Европы, 2 курс",
         chapters: [
-            { id: 1, title: "1 тема", filename: "python_2_mag_1.html" },
-            { id: 2, title: "2 тема", filename: "python_2_mag_2.html" },
+            { id: 1, title: "Повторение", filename: "python_2_mag_1.html" },
         ]
     },
 ];
