@@ -23,6 +23,7 @@ const coursesData = [
             { id: 17, title: "Шумы", filename: "lm_17.html" },
             { id: 18, title: "Преобразование частоты дискретизации", filename: "lm_18.html" },
             { id: 19, title: "Параметрический синтез", filename: "lm_18.html" },
+            { id: 97, title: "Домашние задания", filename: "homework.html" },
             { id: 98, title: "Список литературы", filename: "lit.html" },
             { id: 99, title: "Вопросы к экзамену", filename: "exam_questions.html" },
         ]
