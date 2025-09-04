@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bd44113-8bfa-4b73-9afc-20ea82365b68" name="Changes" comment="Python course" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;annashell&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/annashell/tityushina_courses.git&quot;,
+    &quot;accountId&quot;: &quot;c8f05f4f-d17c-450c-900d-4b964b75d39a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2yxBUh7bJznL3JeyAnF3Qf6AMQO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.deploy.executor": "Run",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\tityushina_courses\public\courses\linear_models\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bd44113-8bfa-4b73-9afc-20ea82365b68" name="Changes" comment="" />
+      <created>1750766362609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750766362609</updated>
+      <workItem from="1750766364535" duration="3330000" />
+      <workItem from="1750838899518" duration="10198000" />
+      <workItem from="1750933767776" duration="16855000" />
+    </task>
+    <task id="LOCAL-00001" summary="header markup">
+      <option name="closed" value="true" />
+      <created>1750767537256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750767537256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="content markup">
+      <option name="closed" value="true" />
+      <created>1750768201602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750768201602</updated>
+    </task>
+    <task id="LOCAL-00003" summary="content markup">
+      <option name="closed" value="true" />
+      <created>1750768708207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750768708207</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lm 1">
+      <option name="closed" value="true" />
+      <created>1750769725809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750769725809</updated>
+    </task>
+    <task id="LOCAL-00005" summary="exam questions">
+      <option name="closed" value="true" />
+      <created>1750849434616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750849434616</updated>
+    </task>
+    <task id="LOCAL-00006" summary="small fix">
+      <option name="closed" value="true" />
+      <created>1750849484693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750849484693</updated>
+    </task>
+    <task id="LOCAL-00007" summary="MathJax integration">
+      <option name="closed" value="true" />
+      <created>1750853690142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750853690142</updated>
+    </task>
+    <task id="LOCAL-00008" summary="MathJax integration">
+      <option name="closed" value="true" />
+      <created>1750933383100</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750933383100</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lm_1">
+      <option name="closed" value="true" />
+      <created>1751460179308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751460179308</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix pathes">
+      <option name="closed" value="true" />
+      <created>1751619663252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751619663252</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix descr">
+      <option name="closed" value="true" />
+      <created>1751619726133</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751619726133</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Python course">
+      <option name="closed" value="true" />
+      <created>1751622044290</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751622044290</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="header markup" />
+    <MESSAGE value="content markup" />
+    <MESSAGE value="lm 1" />
+    <MESSAGE value="exam questions" />
+    <MESSAGE value="small fix" />
+    <MESSAGE value="MathJax integration" />
+    <MESSAGE value="lm_1" />
+    <MESSAGE value="fix pathes" />
+    <MESSAGE value="fix descr" />
+    <MESSAGE value="Python course" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python course" />
+  </component>
+</project>
